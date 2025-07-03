@@ -1,4 +1,6 @@
-This is a rust reimplentation of the anvio script for finding misassemblies (https://anvio.org/help/main/programs/anvi-script-find-misassemblies/) by Trigodet et al (https://www.biorxiv.org/content/10.1101/2025.04.22.649783v2). Should be quite a bit faster and have near identical results (with a different output format). 
+This is a rust reimplentation of the anvio script for finding misassemblies (https://anvio.org/help/main/programs/anvi-script-find-misassemblies/) by Trigodet et al (https://www.biorxiv.org/content/10.1101/2025.04.22.649783v2). 
+
+Should be quite a bit faster and have near identical results.
 
 ### Requirements
 
