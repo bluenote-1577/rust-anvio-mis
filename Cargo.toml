@@ -1,0 +1,10 @@
+[package]
+name = "bam_error_detector"
+version = "0.1.0"
+edition = "2021"
+authors = ["Converted from anvi'o"]
+description = "Identifies potential errors in long read assemblies using mapping information"
+
+[dependencies]
+rust-htslib = "0.44.1"
+clap = { version = "4.4.6", features = ["derive"] }
