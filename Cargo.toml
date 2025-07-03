@@ -6,5 +6,5 @@ authors = ["Converted from anvi'o"]
 description = "Identifies potential errors in long read assemblies using mapping information"
 
 [dependencies]
-rust-htslib = "0.44.1"
+rust-htslib = { version = "0.44.1", default-features = false }
 clap = { version = "4.4.6", features = ["derive"] }

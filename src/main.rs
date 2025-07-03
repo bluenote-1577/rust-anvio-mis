@@ -207,7 +207,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             }
             
             // If end of contig
-            if data.coverage[0] == 0 && pos == contig_length - 1 {
+            if data.coverage[pos] == 0 && pos == contig_length - 1 {
                 if in_window {
                     let window_end = pos + 1;
                     let window_length = window_end - window_start;
